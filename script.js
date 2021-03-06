@@ -1,7 +1,7 @@
 function compute() {
   let principal = document.getElementById("principal").value;
   if (principal<=0){
-    document.getElementById("result").innerHTML = "Please enter a valid amount.";
+    document.getElementById("result").innerHTML = "Please enter a valid amount positive number for example 1000.";
     return;
   }
   let rate = document.getElementById("rate").value;
